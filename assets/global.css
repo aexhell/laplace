@@ -4,7 +4,7 @@ html, body, #__LAPLACE {
 }
 
 #__LAPLACE_PROJECTS_LIST {
-   @apply xl:skew-y-6 xl:scale-75;
+   @apply xl:skew-y-8 xl:scale-75;
    /* transform: matrix3d(1.1, -0.1, 0.5, 0, 0, 1, -0.1, 0, 0, 0, 1, 0, 0, 0, 0, 1.3)*/
 }
 
