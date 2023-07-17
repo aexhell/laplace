@@ -1,6 +1,6 @@
 <template>
    <div id="__LAPLACE-CURSOR" class="top-0 left-0 pointer-events-none md:block hidden select-none absolute">
-      <img class="w-8 h-8" src="/mouse.svg">
+      <img alt="Mouse Icon" class="w-8 h-8" src="/mouse.svg">
    </div>
 </template>
 

@@ -3,6 +3,17 @@ html, body, #__LAPLACE {
    background: linear-gradient(0deg, white, #E4E4E4)
 }
 
+body:before {
+   content: "";
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-image: url(/noise.png);
+   opacity: 0.025;
+   background-size: 15vw;
+   z-index: 0
+}
+
 #__LAPLACE_PROJECTS_LIST {
    @apply md:transform-matrix transform-none
 }
