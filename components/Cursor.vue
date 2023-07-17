@@ -1,5 +1,5 @@
 <template>
-   <div id="__LAPLACE-CURSOR" class="top-0 left-0 pointer-events-none select-none absolute">
+   <div id="__LAPLACE-CURSOR" class="top-0 left-0 pointer-events-none md:block hidden select-none absolute">
       <img class="w-8" src="/mouse.svg">
    </div>
 </template>
