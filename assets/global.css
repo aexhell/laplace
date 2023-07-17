@@ -23,7 +23,8 @@ html, body, #__LAPLACE {
  }
 
 a {
-   color: currentColor
+   color: currentColor;
+   cursor: none
 }
 
 code {
@@ -35,7 +36,8 @@ a, #__LAPLACE_AEXHELL_LOGOTYPE a:hover {
 }
 
 a:hover {
-   text-decoration: underline
+   text-decoration: underline;
+   cursor: none
 }
 
 a.router-link-active {
