@@ -10,5 +10,5 @@
 </template>
 
 <script setup>
-const isMouseEnabled = ref(false);
+const isMouseEnabled = ref(true);
 </script>

@@ -1,6 +1,6 @@
 <template>
    <div id="__LAPLACE-CURSOR" class="top-0 left-0 pointer-events-none select-none absolute">
-      <img src="/mouse.svg">
+      <img class="w-8" src="/mouse.svg">
    </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
 
       const mouse = { x: -100, y: -100 }; // mouse pointer's coordinates
       const pos = { x: 0, y: 0 }; // cursor's coordinates
-      const speed = 0.1; // between 0 and 1
+      const speed = 0.25; // between 0 and 1
 
       const updateCoordinates = e => {
          mouse.x = e.clientX;
