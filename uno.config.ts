@@ -6,6 +6,9 @@ import {
 import presetWebFonts from '@unocss/preset-web-fonts'
 
 export default defineConfig({
+   rules: [
+      ['transform-matrix', { transform: 'matrix3d(0.9, 0.2, 0.5, 0, 0, 1, -0.1, 0, 0, 0, 0.1, 0, 0, 0, 0, 1.3)' }]
+    ],
    shortcuts: [
       // ...
    ],
