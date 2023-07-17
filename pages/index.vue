@@ -1,7 +1,7 @@
 <template>
    <div id="__LAPLACE_LANDING" class="md:w-2/3 m-auto w-full h-full flex md:flex-row flex-col">
       <div class="px-12 md:w-1/2 w-full my-auto">
-         <h1 class="md:text-6xl mb-2 text-4xl font-700 lowercase">Aexhell</h1>
+         <h1 class="md:text-6xl mb-2 text-4xl font-700 lowercase">Aexhɘll</h1>
          <p class="my-0">FRONT-END DEVELOPER / UX ARTIST</p>
          <p class="my-2">프론트엔드 개발자</p>
          <p class="mt-0 mb-8">BASED IN MADRID, SPAIN</p>
