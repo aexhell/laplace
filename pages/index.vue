@@ -12,7 +12,7 @@
             </svg>
          </a>
       </div>
-      <div id="__LAPLACE_PROJECTS_LIST" class="px-12 md:py-0 pb-12 scroll-smooth border-y border-solid border-gray border-x-0 overflow-y-auto md:w-1/2 h-full my-auto flex flex-col gap-4">
+      <div id="__LAPLACE_PROJECTS_LIST" class="px-12 md:py-0 pb-12 scroll-smooth border-y border-solid border-gray border-x overflow-y-auto md:w-1/2 h-full my-auto flex flex-col gap-4">
          <SlideDown />
          <Project v-for="proj of projects" :key="proj.code" :data="proj" />
       </div>
