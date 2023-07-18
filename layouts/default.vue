@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-const isMouseEnabled = ref(true);
+const isMouseEnabled = ref(false);
 const muted = ref(true);
 
 const unmute = () => {
