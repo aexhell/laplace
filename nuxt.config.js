@@ -9,6 +9,9 @@ export default defineNuxtConfig({
    app: {
       rootId: '__LAPLACE',
       head: {
+         htmlAttrs: {
+            lang: 'en'
+         },
          title: 'Aexhell',
          meta: [
             { name: 'viewport', content: 'width=device-width, initial-scale=1' }
