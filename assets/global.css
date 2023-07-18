@@ -35,15 +35,14 @@ body:before {
 a {
    color: currentColor;
    text-decoration: underline;
+}
+
+#__LAPLACE_CONTENT.cursor-disabled a, #__LAPLACE_CONTENT.cursor-disabled a:hover {
    cursor: none
 }
 
 code {
    @apply font-mono
-}
-
-a:hover {
-   cursor: none
 }
 
 a.router-link-active {
